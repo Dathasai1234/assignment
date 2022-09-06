@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap");
 
 * {
   padding: 0;
@@ -138,6 +138,7 @@ header span {
 .section-3 h1 {
   font-size: 3rem;
   font-weight: 600;
+  color: #006ea9;
 }
 
 .section-3 span {
@@ -208,4 +209,66 @@ header span {
 .card a:active {
   background-color: #fff;
   color: #006ea9;
+}
+
+/* section-4 */
+
+.section-4 {
+  margin-bottom: 10rem;
+}
+
+.section-4 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #006ea9;
+}
+
+.section-4 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.tutor-cards {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 8rem;
+}
+
+.tutor-cards .card-body {
+  background-color: rgb(255, 255, 255);
+}
+
+.card-title-content {
+  color: #000;
+}
+
+.card-text-content {
+  color: #000;
+}
+
+.tutor-cards .card a {
+  color: #000;
+}
+
+.tutor-card {
+  border: 1px solid #fff;
+}
+
+.tutor-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #006ea9;
+  margin-top: 10px;
+}
+
+.card-body h5 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.card-body p {
+  font-size: 1.5rem;
+  font-weight: 100;
 }
