@@ -15,7 +15,7 @@ body {
   background-color: #006ea9;
   height: 120vh;
   position: relative;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 nav .navbar-brand,
@@ -95,7 +95,7 @@ header span {
 }
 
 .section-2 {
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .section-2_left {
@@ -127,4 +127,85 @@ header span {
   border-top-right-radius: 100px;
   /* box-shadow: 10px 10px; */
   box-shadow: 10px 10px 5px rgb(92, 112, 119);
+}
+
+/* section-3 */
+
+.section-3 {
+  margin-bottom: 10rem;
+}
+
+.section-3 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.section-3 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.cards {
+  column-gap: 4rem;
+  margin-top: 10rem;
+}
+
+.card {
+  background-color: #006ea9;
+  color: #fff;
+  /* padding: 9.6rem; */
+  border-radius: 10%;
+  position: relative;
+}
+
+.card-title {
+  font-size: 2rem;
+  padding-top: 73px;
+  margin-bottom: 2rem;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  margin-bottom: 0%;
+  color: rgb(255, 253, 253);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  padding-bottom: 20px;
+}
+
+.card a {
+  background-color: #fff;
+  color: #006ea9;
+  font-weight: 600;
+  padding: 1rem 4rem;
+  margin-top: 2rem;
+}
+
+.card-icon {
+  position: absolute;
+  border-radius: 100px;
+  background-color: #006ea9;
+  top: -25px;
+  left: -25px;
+}
+
+.section3-icon {
+  height: 4rem;
+  width: 4rem;
+  padding: 15px;
+  color: #fff;
+}
+
+.card a:link,
+.card a:visited {
+  background-color: #fff;
+  color: #006ea9;
+}
+
+.card a:hover,
+.card a:active {
+  background-color: #fff;
+  color: #006ea9;
 }
