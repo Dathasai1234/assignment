@@ -7,10 +7,15 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Poppins, sans-serif;
+}
+
 .section-1 {
   background-color: #006ea9;
   height: 120vh;
   position: relative;
+  margin-bottom: 8rem;
 }
 
 nav .navbar-brand,
@@ -77,4 +82,49 @@ header span {
   display: block;
   font-size: 1.5rem;
   font-weight: 400;
+}
+
+/* section-2 */
+
+.container h1 {
+  font-size: 3rem;
+  text-align: left;
+  font-weight: 600;
+  row-gap: 3px;
+  column-gap: 3px;
+}
+
+.section-2 {
+  margin-bottom: 8rem;
+}
+
+.section-2_left {
+  gap: 2rem;
+}
+
+.section-2_left p {
+  /* background-color: aqua; */
+  font-size: 1.2rem;
+  margin-bottom: 0%;
+  color: rgb(58, 58, 58);
+}
+
+.check-mark {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 2rem;
+}
+
+.check-list {
+  display: block;
+  justify-items: center;
+  align-items: center;
+  line-height: 2rem;
+  gap: 2rem;
+}
+
+.tutor-img {
+  border-top-right-radius: 100px;
+  /* box-shadow: 10px 10px; */
+  box-shadow: 10px 10px 5px rgb(92, 112, 119);
 }
