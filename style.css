@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.section-1 {
+  background-color: #006ea9;
+  height: 120vh;
+  position: relative;
+}
+
+nav .navbar-brand,
+.nav-link {
+  color: #fff;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: end;
+}
+
+nav ul {
+  list-style-type: none;
+  font-size: large;
+  /* background-color: #000; */
+  display: block;
+  padding: 10px 0 10px 0;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0%;
+  text-decoration: none;
+}
+
+nav ul a:link,
+nav ul a:visited {
+  background-color: #006ea9;
+  color: #fff;
+}
+
+nav ul a:hover,
+nav ul a:active {
+  background-color: #006ea9;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .brand-info {
+  font-family: Poppins, sans-serif;
+  font-weight: 200;
+}
+
+.header {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: Poppins, sans-serif;
+}
+
+header h1 {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 2rem;
+  line-height: 5rem;
+}
+
+header span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
