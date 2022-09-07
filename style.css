@@ -423,3 +423,35 @@ nav {
   top: -1.3rem;
   right: 4rem;
 }
+
+/* section-6 */
+
+.section-6 {
+  margin-bottom: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+
+.section-6 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #006ea9;
+}
+
+.heart-pic {
+  height: 422px;
+  width: 750px;
+  border: 5px solid #006ea9;
+}
+
+.play-icon {
+  position: absolute;
+  color: white;
+  height: 4rem;
+  width: 4rem;
+  bottom: 11rem;
+}
