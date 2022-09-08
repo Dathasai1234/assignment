@@ -116,6 +116,99 @@ nav {
   padding: 0%;
 }
 
+.design-eles {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* .top-icons {
+}
+
+.bottom-icons {
+} */
+
+header {
+  position: relative;
+}
+
+.icon-1 {
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  top: 23rem;
+  left: -8rem;
+  transform: rotate(45deg);
+}
+
+.icon-2 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  right: -10rem;
+  top: -5rem;
+  transform: rotate(-45deg);
+}
+
+.icon-3 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  left: -10rem;
+  top: -5rem;
+  transform: rotate(45deg);
+}
+
+.icon-4 {
+  position: absolute;
+  height: 5rem;
+  width: 5rem;
+  top: 23rem;
+  right: -8rem;
+  transform: rotate(-45deg);
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 1rem;
+}
+
+.icon-1:hover {
+  color: yellow;
+  box-shadow: rgba(255, 251, 0, 0.616) 0px 30px 60px -12px inset,
+    rgba(255, 251, 0, 0.616) 0px 18px 36px -18px inset;
+  transform: scale(1.5);
+}
+
+.icon-2:hover {
+  color: yellow;
+  box-shadow: rgba(255, 251, 0, 0.616) 0px 30px 60px -12px inset,
+    rgba(255, 251, 0, 0.616) 0px 18px 36px -18px inset;
+
+  transform: scale(1.5);
+}
+
+.icon-3:hover {
+  color: yellow;
+  box-shadow: rgba(255, 251, 0, 0.616) 0px 30px 60px -12px inset,
+    rgba(255, 251, 0, 0.616) 0px 18px 36px -18px inset;
+
+  transform: scale(1.5);
+}
+
+.icon-4:hover {
+  color: yellow;
+  box-shadow: rgba(255, 251, 0, 0.616) 0px 30px 60px -12px inset,
+    rgba(255, 251, 0, 0.616) 0px 18px 36px -18px inset;
+
+  transform: scale(1.5);
+}
+
 /* section2 */
 
 .container h1 {
