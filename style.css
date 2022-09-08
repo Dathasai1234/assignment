@@ -17,7 +17,6 @@ body {
   background-color: #006ea9;
   height: 120vh;
   position: relative;
-  margin-bottom: 10rem;
 }
 
 nav .navbar-brand,
@@ -454,4 +453,82 @@ nav {
   height: 4rem;
   width: 4rem;
   bottom: 11rem;
+}
+
+/* section-7 */
+
+.section-7 {
+  margin-bottom: 10rem;
+}
+
+.section-7 h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #006ea9;
+}
+
+.section-7 span {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.sec7-card {
+  background-color: #f8f8f8;
+  border-radius: 10%;
+}
+
+.sec7-card .card-text {
+  color: rgb(0, 0, 0);
+}
+
+.card-body {
+  align-items: flex-start;
+}
+
+.card-body h6 {
+  font-size: 20px;
+  padding-top: 1rem;
+}
+
+.card-body p {
+  font-size: 15px;
+  padding-bottom: 0%;
+}
+
+.card-body a {
+  text-decoration: none;
+  color: #006ea9;
+}
+
+.sec7-card-imgs {
+  overflow: hidden;
+}
+
+.col-sm-5 {
+  overflow: hidden;
+}
+
+.row-1 {
+  flex-basis: 100%;
+}
+
+.sec7-cards {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.sec7-row-1 {
+  margin: auto;
+  margin-bottom: -20%;
+  display: inline-flex;
+}
+
+.card-img {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+
+.sec7-card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
